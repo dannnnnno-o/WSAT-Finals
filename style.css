@@ -291,8 +291,8 @@ border-radius:9px;
 .care-box{
 background:#f7d8e1;
 padding:20px;
-border-left:5px solid #f67199;
-color: #f67199;
+border-left:5px solid #000000;
+color: #000000;
 border-radius: 20px;
 text-align: left;
 background-image: url("images/z.jpg");
