@@ -246,6 +246,7 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 font-family:'MV Boli', Times, serif;
 gap:30px;
+align-items:start; 
 }
 
 
@@ -259,6 +260,10 @@ color:#f67199;
 box-shadow:0 2px 6px #f67199;
 font-family:'MV Boli', Times, serif;
 transition:transform 0.2s;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:flex-start;
 }
 
 .breed-card h3{
@@ -272,16 +277,16 @@ transform:scale(1.05);
 
 .breed-card img{
 width:100%;
-height:200px;
+height:180px;
 object-fit:contain;
 border-radius:5px;
+margin-bottom:10px;
+
 }
 
 .breed-detail-img{
 width:10px;
 max-width:20px;
-display:flex;
-margin:auto;
 border-radius:9px;
 }
 
