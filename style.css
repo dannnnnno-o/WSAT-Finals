@@ -376,7 +376,7 @@ button:active {
 .wrapper {
     max-width: 11000px;
     padding: 20px 10px;
-    margin: 0 60px 35px;
+    margin: 0 60px 10px;
     overflow: hidden;
 }
 
@@ -506,6 +506,8 @@ box-shadow: 0 2px 5px rgb(240, 225, 227);
   background: transparent;
   border-radius: 0;
   position: relative;
+  bottom: 1px;
+    z-index: 10; 
 }
 
 
@@ -544,4 +546,15 @@ box-shadow: 0 2px 5px rgb(240, 225, 227);
 
 .swiper-wrapper {
   transition-timing-function: ease-in-out;
+}
+
+@media (max-width: 768px){
+    .wrapper {
+        margin: 0 10px 25px;
+        flex-direction:column;
+    }
+
+    .wrapper :where(.swiper-button-prev, .swiper-button-next){
+        display: none;
+    }
 }
