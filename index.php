@@ -11,15 +11,15 @@
 <body>
 
 <header>
-    <a href="home.html" class="logo">
-        <img src="images/catty.png" alt="Home Logo" width="55">
+    <a href="/" class="logo">
+        <img src="images/bg/catty.png" alt="Home Logo" width="55">
         <h1>Popular Cat Breeds</h1>
     </a>
     <nav>
         <ul class="nav-links">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="breed.html">Breeds</a></li>
-            <li><a href="care.html">C-Care</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/breeds">Breeds</a></li>
+            <li><a href="/care">C-Care</a></li>
         </ul>
     </nav>
 </header>
@@ -37,7 +37,7 @@ Whether you're interested in learning about different cat breeds or how to care 
         </div>
 
     <div class="image">
-        <img src="images/m.png" width="350">
+        <img src="images/bg/m.png" width="350">
     </div>
 </div>
 

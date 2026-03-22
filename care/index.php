@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cat Care Guide</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body class="care-page">
@@ -12,15 +12,15 @@
 <header>
 
 <a href="home.html" class="logo">
-        <img src="images/catty.png" alt="Home Logo" width="55">
+        <img src="../images/bg/catty.png" alt="Home Logo" width="55">
         <h1>Popular Cat Breeds</h1>
     </a>
 
 <nav>
 <ul class="nav-links">
-<li><a href="home.html">Home</a></li>
-<li><a href="breed.html">Breeds</a></li>
-<li><a href="care.html">C-Care</a></li>
+<li><a href="../">Home</a></li>
+<li><a href="../breeds">Breeds</a></li>
+<li><a href="/">C-Care</a></li>
 </ul>
 </nav>
 
@@ -36,7 +36,7 @@
 <div id="care-grid">
     <div class="care-box">
         <div class="boxe">
-            <img src="images/a.jpg" alt="">
+            <img src="../images/bg/a.jpg" alt="">
             <h3>Grooming</h3>
             <p>Brush your cat regularly to maintain healthy fur.</p>
         </div>
@@ -44,7 +44,7 @@
 
     <div class="care-box">
         <div class="boxe">
-            <img src="images/a.jpg" alt="">
+            <img src="../images/bg/a.jpg" alt="">
             <h3>Feeding</h3>
             <p>Provide balanced cat food and fresh water daily.</p>
         </div>
@@ -52,7 +52,7 @@
 
     <div class="care-box">
         <div class="boxe">
-            <img src="images/a.jpg" alt="">
+            <img src="../images/bg/a.jpg" alt="">
             <h3>Health</h3>
             <p>Regular veterinary visits help keep your cat healthy.</p>
         </div>
@@ -60,7 +60,7 @@
 
     <div class="care-box">
         <div class="boxe">
-            <img src="images/a.jpg" alt="">
+            <img src="../images/bg/a.jpg" alt="">
             <h3>Exercise</h3>
             <p>Play with your cat and provide toys for stimulation.</p>
         </div>
