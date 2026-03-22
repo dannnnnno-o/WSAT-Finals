@@ -31,8 +31,8 @@
 They come in a variety of breeds, each with unique characteristics and care needs.
 Whether you're interested in learning about different cat breeds or how to care for your feline friend, this website has you covered.</p>
             <div class="button-group">
-<button onclick="history.about()">About</button>
-            <button>Cats</button>
+<button id="aboutButton">About</button>
+            <button id="catsButton">Cats</button>
         </div>
         </div>
 
@@ -44,6 +44,15 @@ Whether you're interested in learning about different cat breeds or how to care 
 <footer>
    @ 2026 Breeds of Cats
 </footer>
+<script>
+    let cats = "/breeds";
+    let about = "/about";
 
+    const aboutButton = document.querySelector("#aboutButton");
+    aboutButton.addEventListener("click", (e) => {console.log("asdas");window.location.replace(about)});
+    
+    const catsButton = document.querySelector("#catsButton");
+    catsButton.addEventListener("click", (e) => {console.log("asdas");window.location.replace(cats)});
+</script>
 </body>
 </html>
