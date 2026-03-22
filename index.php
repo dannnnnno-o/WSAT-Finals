@@ -49,10 +49,10 @@ Whether you're interested in learning about different cat breeds or how to care 
     let about = "/about";
 
     const aboutButton = document.querySelector("#aboutButton");
-    aboutButton.addEventListener("click", (e) => {console.log("asdas");window.location.replace(about)});
+    aboutButton.addEventListener("click", (e) => {window.location.replace(about)});
     
     const catsButton = document.querySelector("#catsButton");
-    catsButton.addEventListener("click", (e) => {console.log("asdas");window.location.replace(cats)});
+    catsButton.addEventListener("click", (e) => {window.location.replace(cats)});
 </script>
 </body>
 </html>
