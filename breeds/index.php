@@ -54,7 +54,7 @@ require_once('../model.php');
         <span class="card-profile-role">Wild Adventurer</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Bengal Cat" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -74,7 +74,7 @@ require_once('../model.php');
         <span class="card-profile-role">The Gentle Giant</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Main Coon" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -94,7 +94,7 @@ require_once('../model.php');
         <span class="card-profile-role">Elegant Aristocrat</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Persian Cat" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -115,7 +115,7 @@ require_once('../model.php');
         <span class="card-profile-role">Loving Companion</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Ragdoll" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -137,7 +137,7 @@ require_once('../model.php');
         <span class="card-profile-role">Curious Explorer</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Abyssinian Cat" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -158,7 +158,7 @@ require_once('../model.php');
         <span class="card-profile-role">Sacred Beauty</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Birman" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -179,7 +179,7 @@ require_once('../model.php');
         <span class="card-profile-role">Calm Gentleman</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=British Shorthair" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -201,7 +201,7 @@ require_once('../model.php');
         <span class="card-profile-role">The Sweet Owl</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Scottish Fold" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -223,7 +223,7 @@ require_once('../model.php');
         <span class="card-profile-role">Talkative Royal</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Siamesex Cat" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -244,7 +244,7 @@ require_once('../model.php');
         <span class="card-profile-role">Affectionate Alien</span>
         </div>
         </div>
-        <a href="" class="card-button">Know More</a>
+        <a href="../cats/?name=Sphynx Cat" class="card-button">Know More</a>
         </div>
         </div>
         </div>
