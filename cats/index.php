@@ -60,7 +60,7 @@ $image = $cat["image"];
 <div class="care-box">
 <h3>Breed Standard</h3>
 <p>
-<?php echo parse_breed_standard(nl2br($breed_standard))?>
+<?php echo parse_breed_standard($breed_standard)?>
 </div>
 
 <div class="care-box">
