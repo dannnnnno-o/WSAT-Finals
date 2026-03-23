@@ -40,7 +40,7 @@ require_once('../model.php');
         <div class="card-list swiper-wrapper">
         <div class="card swiper-slide">
         <div class="card-image">
-        <img src="../images/cats/bengal.jpg" alt="Bengal">
+        <img src="../images/cats/bengal-cat.jpg" alt="Bengal">
         <p class="card-tag">Bengal</p>
         </div>
         <div class="card-content">
@@ -48,7 +48,7 @@ require_once('../model.php');
         <p class="card-text">Popular for their wild-looking spotted coat and energetic, playful nature.</p>
         <div class="card-footer">
         <div class="card-profile">
-        <img src="../images/cats/bengal.jpg" alt="Bengal">
+        <img src="../images/cats/bengal-cat.jpg" alt="Bengal">
         <div class="card-profile-info">
         <span class="card-profile-name">Bengal</span>
         <span class="card-profile-role">Wild Adventurer</span>
@@ -278,27 +278,6 @@ foreach($cats as $cat){
     ';
 }
 ?>
-<!--     <a href="" class="breed-card">
-    <img src="assets/bengal.jpg">
-    <h3>Bengal</h3>
-    <p>Known for their semi-long coat and love of swimming.</p>
-    </a>
-    <a href="" class="breed-card">
-    <img src="assets/mainecoon.jpg">
-    <h3>Bengal</h3>
-    <p>Known for their semi-long coat and love of swimming.</p>
-    </a>
-    <a href="" class="breed-card">
-    <img src="assets/Persian cat.jpg">
-    <h3>Bengal</h3>
-    <p>Known for their semi-long coat and love of swimming.</p>
-    </a>
-    <a href="" class="breed-card">
-    <img src="assets/siamese.jpg">
-    <h3>Bengal</h3>
-    <p>Known for their semi-long coat and love of swimming.</p>
-    </a> -->
-
 </div>
 
 </section>
