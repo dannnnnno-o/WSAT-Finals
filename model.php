@@ -1,7 +1,7 @@
 <?php 
 
 function get_cats(object $pdo){
-    $query = "SELECT * FROM cats";
+    $query = "SELECT * FROM cats ORDER BY name ASC";
     $statement = $pdo -> prepare($query);
     $statement->execute();
 
