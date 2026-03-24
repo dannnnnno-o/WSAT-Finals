@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
 <header>
     <a href="/" class="logo">
         <img src="images/bg/catty.png" alt="Home Logo" width="55">
