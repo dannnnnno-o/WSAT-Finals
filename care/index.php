@@ -20,7 +20,7 @@
 <ul class="nav-links">
 <li><a href="../">Home</a></li>
 <li><a href="../breeds">Breeds</a></li>
-<li><a href="/">C-Care</a></li>
+<li><a href="/care" id="highlight">C-Care</a></li>
 </ul>
 </nav>
 

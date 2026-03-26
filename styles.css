@@ -150,6 +150,13 @@ nav a{
     font-weight:bold;
 }
 
+#highlight{
+    color: #fff;
+    background-color: #f67199;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
 nav a:hover{
     color:#fff;
     
