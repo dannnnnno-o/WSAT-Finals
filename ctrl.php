@@ -9,6 +9,14 @@
     }
 } */
 
+    function is_invalid_search(string $search){
+        if("" === trim($search)){
+            return true;
+        }
+        return false;
+
+    }
+
 
 function parse_breed_standard(string $x){
     $breed_standard = [];

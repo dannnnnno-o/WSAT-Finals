@@ -1,6 +1,7 @@
 <?php
 require_once('../db.php');
 require_once('../model.php');
+require_once('../ctrl.php');
 ?>
 
 <!DOCTYPE html>
@@ -22,6 +23,12 @@ require_once('../model.php');
         <img src="../images/bg/catty.png" alt="Home Logo" width="70">
         <h1>Popular Cat Breeds</h1>
 </a>
+
+<form action="/breeds/breeds.inc.php" method="GET">
+    <input type="text" name="search">
+    <input type="submit" value="Search">
+</form>
+
 <nav>
 <ul class="nav-links">
 <li><a href="../">Home</a></li>
@@ -34,7 +41,9 @@ require_once('../model.php');
 
 <section class="container">
 
-
+<?php 
+if(empty($_GET["search"])){
+echo'
 <div class="container swiper">
         <div class="wrapper">
         <div class="card-list swiper-wrapper">
@@ -256,27 +265,45 @@ require_once('../model.php');
   <div class="swiper-button-next"></div>
 
         </div>
-        </div>
+</div>
+';
+}
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+?>
 
-        <script src="../script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="../script.js"></script>
 
 <div class="breed-grid">
 <?php
 $cats = get_cats($pdo);
-foreach($cats as $cat){
-    $name = $cat["name"];
-    $description = $cat["description"];
-    $image = $cat["image"];
-    echo'
-    <a href="../cats/?name=' . $name . '" class="breed-card">
+
+if(!(empty($_GET["search"]))){
+    $search = $_GET["search"];
+    $cats = search_cat($pdo, $_GET["search"]);
+}
+if($cats != NULL){
+    foreach($cats as $cat){
+        $name = $cat["name"];
+        $description = $cat["description"];
+        $image = $cat["image"];
+        echo'
+        <a href="../cats/?name=' . $name . '" class="breed-card">
         <img src="../images/cats/' . $image . ' ">
         <h3>' . $name . '</h3> 
         <p>'. $description .'</p>
-    </a>
-    ';
-}
+        </a>
+        ';
+    }
+    }
+    else {
+        echo'
+        <p>No results for "'. $search .'"<br>
+        <a href="/breeds">Go Back?</a>
+        </p>
+        ';
+    }
 ?>
 </div>
 

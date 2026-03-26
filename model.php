@@ -19,6 +19,22 @@ function get_cat_by_name(object $pdo, string $name){
     return $result;
 }
 
+function search_cat(object $pdo, string $search){
+    $search = "%" . $search . "%";
+    $query = 'SELECT * FROM cats WHERE name LIKE :search ORDER BY name ASC';
+    $statement = $pdo -> prepare($query);
+    $statement->bindParam("search", $search);
+    $statement->execute();
+
+    $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+    if(!(empty($result))){
+        return $result;
+    }
+    return NULL;
+
+
+}
+
 
 
 ?>
