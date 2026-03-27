@@ -275,15 +275,18 @@ echo'
 
     <script src="../script.js"></script>
 
-<div class="breed-grid">
-<?php
+    <?php
 $cats = get_cats($pdo);
 
 if(!(empty($_GET["search"]))){
     $search = $_GET["search"];
     $cats = search_cat($pdo, $_GET["search"]);
-}
-if($cats != NULL){
+    }
+    if($cats != NULL){
+        if(isset($search)){
+            echo '<p>Results for "' . $search . '"</p><br>';
+        }
+        echo '<div class="breed-grid">';
     foreach($cats as $cat){
         $name = $cat["name"];
         $description = $cat["description"];
