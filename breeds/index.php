@@ -6,44 +6,50 @@ require_once('../ctrl.php');
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Breeds of Cats</title>
-<link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breeds of Cats</title>
+    <link rel="stylesheet" href="../styless.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
 
 
-<header>
-     <a href="../" class="logo">
-        <img src="../images/bg/catty.png" alt="Home Logo" width="70">
-        <h1>Popular Cat Breeds</h1>
-</a>
+    <header>
+        <a href="../" class="logo">
+            <img src="../images/bg/catty.png" alt="Home Logo" width="70">
+            <h1>Popular Cat Breeds</h1>
+        </a>
 
-<form action="/breeds/breeds.inc.php" method="GET">
-    <input type="text" name="search">
-    <input type="submit" value="Search">
-</form>
+        <form action="/breeds/breeds.inc.php" method="GET" class="breed-search-form" id="breedSearchForm">
+            <div class="search-input-wrap">
+                <input type="text" name="search" id="breedSearchInput" autocomplete="off">
+                <button type="submit" class="search-btn" title="Search breeds">
+                    <i class="fa-solid fa-paw"></i>
+                </button>
+            </div>
+        </form>
 
-<nav>
-<ul class="nav-links">
-<li><a href="../">Home</a></li>
-<li><a href="/breeds" id="highlight">Breeds</a></li>
-<li><a href="../care">C-Care</a></li>
-</ul>
-</nav>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../">Home</a></li>
+                <li><a href="/breeds" id="highlight">Breeds</a></li>
+                <li><a href="../care">C-Care</a></li>
+            </ul>
+        </nav>
 
-</header>
+    </header>
 
-<section class="container">
+    <section class="container">
 
-<?php 
-if(empty($_GET["search"])){
-echo'
+        <?php
+        if (empty($_GET["search"])) {
+            echo '
 <div class="container swiper">
         <div class="wrapper">
         <div class="card-list swiper-wrapper">
@@ -267,55 +273,70 @@ echo'
         </div>
 </div>
 ';
-}
-
-?>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-
-    <script src="../script.js"></script>
-
-    <?php
-$cats = get_cats($pdo);
-
-if(!(empty($_GET["search"]))){
-    $search = $_GET["search"];
-    $cats = search_cat($pdo, $_GET["search"]);
-    }
-    if($cats != NULL){
-        if(isset($search)){
-            echo '<p>Results for "' . $search . '"</p><br>';
         }
-        echo '<div class="breed-grid">';
-    foreach($cats as $cat){
-        $name = $cat["name"];
-        $description = $cat["description"];
-        $image = $cat["image"];
-        echo'
+
+        ?>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+        <script src="../script.js"></script>
+
+        <?php
+        $cats = get_cats($pdo);
+
+        if (!(empty($_GET["search"]))) {
+            $search = $_GET["search"];
+            $cats = search_cat($pdo, $_GET["search"]);
+        }
+        if ($cats != NULL) {
+            if (isset($search)) {
+                echo '<p>Results for "' . $search . '"</p><br>';
+            }
+            echo '<div class="breed-grid">';
+            foreach ($cats as $cat) {
+                $name = $cat["name"];
+                $description = $cat["description"];
+                $image = $cat["image"];
+                echo '
         <a href="../cats/?name=' . $name . '" class="breed-card">
         <img src="../images/cats/' . $image . ' ">
         <h3>' . $name . '</h3> 
-        <p>'. $description .'</p>
+        <p>' . $description . '</p>
         </a>
         ';
-    }
-    }
-    else {
-        echo'
-        <p>No results for "'. $search .'"<br>
+            }
+        } else {
+            echo '
+        <p>No results for "' . $search . '"<br>
         <a href="/breeds">Go Back?</a>
         </p>
         ';
-    }
-?>
-</div>
+        }
+        ?>
+        </div>
 
-</section>
+    </section>
 
 
-<footer>
-<p>© 2026 Breeds of Cats</p>
-</footer>
+    <footer>
+        <p>© 2026 Breeds of Cats</p>
+    </footer>
+
+    <script>
+        (function () {
+            const catBreeds = [
+                <?php foreach ($cats as $catBreed) {
+                    echo '"' . $catBreed["name"] . '",';
+                } ?>
+            ];
+            const input = document.getElementById('breedSearchInput');
+            if (input) {
+                const randomName = catBreeds[Math.floor(Math.random() * catBreeds.length)];
+                input.placeholder = 'Try "' + randomName + '"...';
+            }
+        })();
+    </script>
 
 </body>
+
 </html>
