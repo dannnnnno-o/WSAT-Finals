@@ -12,6 +12,7 @@ require_once('../ctrl.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breeds of Cats</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -253,7 +254,7 @@ require_once('../ctrl.php');
         <p class="card-text">Recognized for their hairless body, affectionate personality, and striking appearance.</p>
         <div class="card-footer">
         <div class="card-profile">
-        <img src="../10popular/siamese.jpg" alt="Sphynx">
+        <img src="../10popular/Sphynx.jpg" alt="Sphynx">
         <div class="card-profile-info">
         <span class="card-profile-name">Sphynx</span>
         <span class="card-profile-role">Affectionate Alien</span>
@@ -337,18 +338,18 @@ require_once('../ctrl.php');
         })();
 
 
-            window.onload = function(){
-        const breedCards = document.querySelectorAll(".breed-card");
-        const heights = [];
-        for(i = 0; i < breedCards.length; i++){
-            heights.push(breedCards[i].offsetHeight);
-        }
-        max_height = Math.max(...heights);
+        window.onload = function () {
+            const breedCards = document.querySelectorAll(".breed-card");
+            const heights = [];
+            for (i = 0; i < breedCards.length; i++) {
+                heights.push(breedCards[i].offsetHeight);
+            }
+            max_height = Math.max(...heights);
 
-        for(i = 0; i < breedCards.length; i++){
-            breedCards[i].style.height = max_height + "px"
-        }
-            
+            for (i = 0; i < breedCards.length; i++) {
+                breedCards[i].style.height = max_height + "px"
+            }
+
         };
     </script>
 
