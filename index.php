@@ -47,6 +47,7 @@
     <footer>
         @ 2026 Breeds of Cats
     </footer>
+    <script src="script.js"></script>
     <script>
         let cats = "/breeds";
         let about = "/about";
