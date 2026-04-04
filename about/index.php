@@ -10,16 +10,16 @@
 <body>
 
 <header>
-     <a href="home.html" class="logo">
+     <a href="/" class="logo">
         <img src="../images/bg/catty.png" alt="Home Logo" width="70">
         <h1>Popular Cat Breeds</h1>
 </a>
 
 <nav>
 <ul class="nav-links">
-<li><a href="home.html">Home</a></li>
-<li><a href="breed.html">Breeds</a></li>
-<li><a href="care.html">C-Care</a></li>
+<li><a href="/">Home</a></li>
+<li><a href="/breeds/">Breeds</a></li>
+<li><a href="/care/">C-Care</a></li>
 </ul>
 </nav>
 
