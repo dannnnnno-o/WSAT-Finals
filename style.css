@@ -228,14 +228,14 @@ color: white; */
 
 
 .box {
-    width: 1000px;
+    width: 860px;
     height: 150px;
     display: flex;
     text-align: center;
     background-color: rgb(240, 121, 141);
     border: 2px solid rgb(241, 189, 197);
     border-radius: 30px;
-    padding: 40px;
+    padding: 30px;
     margin: 30px auto;
     background-image: url("images/bg/z.jpg");
     background-size: cover;
@@ -250,6 +250,7 @@ color: white; */
 
 .box p {
     color: #f67199;
+    text-align: justify;
 
 }
 
@@ -333,7 +334,7 @@ color: white; */
     margin-top: 20px;
     margin-left: 12px;
     margin-right: 12px;
-    background-image: url("images/bg/qw.jpg");
+    background-image: url("images/bg/cutie.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
