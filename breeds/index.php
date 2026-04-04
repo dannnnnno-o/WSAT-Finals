@@ -91,7 +91,7 @@ require_once('../ctrl.php');
         <span class="card-profile-role">The Gentle Giant</span>
         </div>
         </div>
-        <a href="../cats/?name=Main Coon" class="card-button">Know More</a>
+        <a href="../cats/?name=Maine Coon" class="card-button">Know More</a>
         </div>
         </div>
         </div>
@@ -240,7 +240,7 @@ require_once('../ctrl.php');
         <span class="card-profile-role">Talkative Royal</span>
         </div>
         </div>
-        <a href="../cats/?name=Siamesex Cat" class="card-button">Know More</a>
+        <a href="../cats/?name=Siamese Cat" class="card-button">Know More</a>
         </div>
         </div>
         </div>
