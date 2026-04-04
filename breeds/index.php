@@ -40,7 +40,8 @@ require_once('../ctrl.php');
             <ul class="nav-links">
                 <li><a href="../">Home</a></li>
                 <li><a href="/breeds" id="highlight">Breeds</a></li>
-                <li><a href="../care">C-Care</a></li>
+                <li><a href="/care">C-Care</a></li>
+                <li><a href="/about">About</a></li>
             </ul>
         </nav>
 

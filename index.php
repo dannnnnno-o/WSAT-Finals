@@ -20,6 +20,7 @@
                 <li><a id="highlight" href="/">Home</a></li>
                 <li><a href="/breeds">Breeds</a></li>
                 <li><a href="/care">C-Care</a></li>
+                <li><a href="/about">About</a></li>
             </ul>
         </nav>
     </header>

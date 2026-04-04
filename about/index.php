@@ -18,8 +18,9 @@
 <nav>
 <ul class="nav-links">
 <li><a href="/">Home</a></li>
-<li><a href="/breeds/">Breeds</a></li>
-<li><a href="/care/">C-Care</a></li>
+<li><a href="/breeds">Breeds</a></li>
+<li><a href="/care">C-Care</a></li>
+<li><a href="/about" id="highlight">About</a></li>
 </ul>
 </nav>
 

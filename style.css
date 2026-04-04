@@ -8,14 +8,14 @@
 
 body {
     background: #f9e4ea;
-    background-image: url("images/b.jpg");
+    background-image: url("../images/bg/b.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .care-page {
     background: #f9e4ea;
-    background-image: url("images/mn.jpg");
+    background-image: url("../images/bg/mn.jpg");
     background-repeat: repeat;
 }
 
@@ -55,7 +55,7 @@ h3 {
     border-radius: 30px;
     padding: 20px;
     margin: 100px auto;
-    background-image: url("images/z.jpg");
+    background-image: url("/images/bg/z.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@ color: white; */
     border-radius: 30px;
     padding: 40px;
     margin: 30px auto;
-    background-image: url("images/z.jpg");
+    background-image: url("images/bg/z.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -316,7 +316,7 @@ color: white; */
     color: #000000;
     border-radius: 20px;
     text-align: left;
-    background-image: url("images/z.jpg");
+    background-image: url("images/bg/z.jpg");
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -333,7 +333,7 @@ color: white; */
     margin-top: 20px;
     margin-left: 12px;
     margin-right: 12px;
-    background-image: url("images/qw.jpg");
+    background-image: url("images/bg/qw.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
