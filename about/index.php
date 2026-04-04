@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Breeds of Cats</title>
 <link rel="stylesheet" href="../style.css">
+<link rel="icon" href="/images/bg/catty.png">
 </head>
 
 <body>
 
 <header>
      <a href="/" class="logo">
-        <img src="../images/bg/catty.png" alt="Home Logo" width="70">
+        <img src="../images/bg/catty.png" alt="Home Logo" width="80">
         <h1>Popular Cat Breeds</h1>
 </a>
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Care Guide</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="/images/bg/catty.png">
 </head>
 
 <body class="care-page">
@@ -13,7 +14,7 @@
     <header>
 
         <a href="home.html" class="logo">
-            <img src="../images/bg/catty.png" alt="Home Logo" width="55">
+            <img src="../images/bg/catty.png" alt="Home Logo" width="80">
             <h1>Popular Cat Breeds</h1>
         </a>
 

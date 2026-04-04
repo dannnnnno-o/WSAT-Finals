@@ -10,7 +10,7 @@ body {
     background: #f9e4ea;
     background-image: url("../images/bg/b.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 .care-page {

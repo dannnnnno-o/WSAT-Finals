@@ -13,6 +13,7 @@ require_once('../ctrl.php');
     <title>Breeds of Cats</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/bg/catty.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -23,7 +24,7 @@ require_once('../ctrl.php');
 
     <header>
         <a href="../" class="logo">
-            <img src="../images/bg/catty.png" alt="Home Logo" width="70">
+            <img src="../images/bg/catty.png" alt="Home Logo" width="80">
             <h1>Popular Cat Breeds</h1>
         </a>
 
