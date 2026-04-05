@@ -54,13 +54,15 @@ body {
     position: absolute;
     bottom: 10px;
     left: 10px;
+    top: auto;
     background: rgba(255,255,255,0.8);
     color: #a83f7e;
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
     padding: 2px 8px;
     border-radius: 12px;
-    height: 29px;
+    height: 33px;
+    
 }
 
 .card.swiper-slide .card-content {
