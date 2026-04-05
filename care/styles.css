@@ -3,6 +3,7 @@ body {
     background-position: center;
     background-size: cover !important;
     background-attachment: fixed;
+
 }
 
 /* Care page hero box - fit content and center */
@@ -61,6 +62,10 @@ body.care-page footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .img-warp {
@@ -84,6 +89,13 @@ body.care-page footer {
 
 .boxe p {
     flex: 2 1 300px;
+    color: #4a2030;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.boxe p strong {
+    color: #8c2b50;
 }
 
 /* ===================== */
