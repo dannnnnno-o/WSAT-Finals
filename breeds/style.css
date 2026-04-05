@@ -12,6 +12,10 @@ body {
     background-repeat: repeat-y;
 }
 
+a{
+    text-decoration: none;
+}
+
 @media (max-width: 850px) {
     body {
         padding-top: 180px !important;
