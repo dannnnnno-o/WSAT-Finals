@@ -1,0 +1,144 @@
+<<<<<<< Updated upstream
+=======
+.all h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(243, 132, 150);
+}
+
+.container {
+    justify-self: center;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #f67199;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Tablets and small laptops */
+@media (max-width: 992px) {
+    header {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px 30px;
+        gap: 15px;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+
+    .container h2 {
+        font-size: 32px;
+    }
+}
+
+/* Tablets Portrait */
+@media (max-width: 850px) {
+    body {
+        padding-top: 180px !important;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px 15px;
+        justify-content: center;
+        text-align: center;
+        gap: 8px;
+        height: auto;
+    }
+
+    .logo {
+        margin-bottom: 5px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        padding-top: 160px !important;
+    }
+
+    header h1 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .nav-links {
+        flex-direction: row !important;
+        gap: 6px;
+        margin-top: 5px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .container h2 {
+        font-size: 24px;
+    }
+
+    .container p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .all h2 {
+        font-size: 28px;
+    }
+}
+>>>>>>> Stashed changes

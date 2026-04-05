@@ -227,21 +227,6 @@ h2 {
     font-weight: bold;
 }
 
-.all {
-
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    color: #000000;
-    text-align: center;
-}
-
-.all h2 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #f67199;
-}
 
 .container {
     padding: 40px;
