@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         window.addEventListener('scroll', () => {
             let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop; // updates lastScrollTop
-            console.log("lastScrollTop = " + lastScrollTop)
+            // console.log("lastScrollTop = " + lastScrollTop)
 
             // in case that the scroll position is negative
             if (currentScrollTop < 0) currentScrollTop = 0;

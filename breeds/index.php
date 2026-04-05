@@ -12,7 +12,7 @@ require_once('../ctrl.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breeds of Cats</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="/images/bg/catty.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -293,7 +293,7 @@ require_once('../ctrl.php');
         }
         if ($cats != NULL) {
             if (isset($search)) {
-                echo '<p>Results for "' . $search . '"</p><br>';
+                echo '<p class="results">Results for "' . $search . '"</p><br>';
             }
             echo '<div class="breed-grid">';
             foreach ($cats as $cat) {

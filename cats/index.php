@@ -17,14 +17,17 @@ require_once('../ctrl.php');
 <body>
 
 <header>
-    
-<h1><?php echo $_GET["name"]  ?></h1>
 
+    <a href="/" class="logo">
+        <img src="/images/bg/catty.png" alt="Home Logo" width="80">
+        <h1>Popular Cat Breeds</h1>
+    </a>
 <nav>
 <ul class="nav-links">
-<li><a href="../">Home</a></li>
-<li><a href="../breeds">Breeds</a></li>
-<li><a href="../care">C-Care</a></li>
+    <li><a href="../">Home</a></li>
+    <li><a href="../breeds">Breeds</a></li>
+    <li><a href="../care">C-Care</a></li>
+    <li><a href="/About">About</a></li>
 </ul>
 </nav>
 

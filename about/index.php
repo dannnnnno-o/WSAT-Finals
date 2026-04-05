@@ -70,7 +70,9 @@
 
 </section>
 <footer>
-<p>© 2026 Breeds of Cats</p>
-    <script src="../script.js"></script>
+    <p>© 2026 Breeds of Cats</p>
+</footer>
+
+<script src="../script.js"></script>
 </body>
 </html>
