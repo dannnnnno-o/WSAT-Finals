@@ -50,6 +50,8 @@ $image = $cat["image"];
 
 <div class="care-grid">
 
+<h1><?php echo $name ?></h1>
+
 <div class="care-box">
 <h3>Origin</h3>
 <p><?php echo $origin ?></p>
