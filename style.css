@@ -12,7 +12,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover !important;
     padding-top: 70px;
-    /* Offset for fixed header */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .care-page {
@@ -363,12 +365,12 @@ color: white; */
 }
 
 footer {
+    margin-top: auto;
     color: rgb(243, 132, 150);
     text-align: center;
     padding: 20px;
     font-weight: bolder;
     font-size: 22px;
-
 }
 
 
@@ -584,7 +586,7 @@ button:active {
     transition-timing-function: ease-in-out;
 }
 
-/* ===== Breed Search Form ===== */
+/* Breed Search Form */
 .breed-search-form {
     display: flex;
     align-items: center;

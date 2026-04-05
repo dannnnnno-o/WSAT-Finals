@@ -8,6 +8,7 @@ body{
     background-position: center;
     background-size: cover !important;
     background-attachment: fixed;
+    background-repeat: repeat-y;
 }
 
 .swiper-slide {

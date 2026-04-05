@@ -41,9 +41,12 @@ From the elegant Persian to the playful Bengal, explore the world of cats and fi
 They come in a variety of breeds, each with unique characteristics and care needs.<br> 
 Whether you're interested in learning about different cat breeds or how to care for your feline friend, 
 this website has you covered.</p></center>
+</section>
 
 <footer>
-<p>© 2026 Breeds of Cats</p>
-    <script src="../script.js"></script>
+    <p>© 2026 Breeds of Cats</p>
+</footer>
+
+<script src="../script.js"></script>
 </body>
 </html>
