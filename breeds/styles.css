@@ -11,6 +11,19 @@ body{
     background-repeat: repeat-y;
 }
 
+@media (max-width: 850px) {
+    body {
+        padding-top: 180px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 160px !important;
+    }
+}
+
+
 .swiper-slide {
     cursor: grab;
 }
@@ -75,14 +88,16 @@ body{
 @media (max-width: 850px) {
     header {
         flex-direction: column;
-        padding: 20px;
+        padding: 10px 15px;
         justify-content: center;
         text-align: center;
+        gap: 8px;
     }
 
     .logo {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
+
 
     nav {
         width: 100%;
@@ -125,22 +140,25 @@ body{
 /* Mobile Devices */
 @media (max-width: 480px) {
     header h1 {
-        font-size: 18px;
+        font-size: 16px;
+        margin-top: 5px;
     }
 
     .nav-links {
         flex-direction: row !important; /* override stacking on root css*/
-        gap: 5px;
+        gap: 8px;
+        margin-top: 5px;
     }
 
     .nav-links a {
-        font-size: 14px;
-        padding: 5px 8px;
+        font-size: 13px;
+        padding: 4px 8px;
     }
 
     .logo img {
-        width: 50px;
+        width: 40px;
     }
+
 
     .search-input-wrap input[type="text"] {
         padding: 8px 15px;
