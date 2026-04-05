@@ -1,0 +1,153 @@
+/* Home Page Responsive Styles */
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+@media (max-width: 850px) {
+    body {
+        padding-top: 130px !important;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    header {
+        height: auto !important;
+        flex-direction: column !important;
+        padding: 5px 15px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: 0 !important;
+    }
+
+    header h1 {
+        margin: 0 !important;
+        font-size: 20px !important;
+    }
+
+    .logo {
+        margin: 0 !important;
+        gap: 5px !important;
+    }
+
+    .nav-links {
+        display: flex !important;
+        flex-direction: row !important;
+        margin: 5px 0 0 0 !important;
+        padding: 0 !important;
+        gap: 10px !important;
+        justify-content: center !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .nav-links a {
+        font-size: 15px !important;
+        padding: 5px 8px !important;
+    }
+
+    /* .my-box reset */
+    .my-box {
+        width: 90% !important;
+        max-width: 500px !important;
+        flex-direction: column-reverse !important;
+        height: auto !important;
+        margin: 30px auto !important;
+        padding: 20px !important;
+        border-radius: 25px !important;
+        gap: 20px !important;
+    }
+
+    .text {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+    }
+
+    .text h2 {
+        font-size: 26px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .text p {
+        font-size: 16px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 1.4 !important;
+    }
+
+    .image {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .image img {
+        width: 100% !important;
+        max-width: 220px !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+
+    .button-group {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        align-items: center !important;
+        margin: 0 !important;
+        gap: 8px !important;
+    }
+
+    .button-group button,
+    .text button {
+        width: 100% !important;
+        max-width: 200px !important;
+        margin: 0 !important;
+        padding: 12px 20px !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 110px !important;
+    }
+
+    header h1 {
+        font-size: 18px !important;
+    }
+
+    .logo img {
+        width: 45px !important;
+    }
+
+    .nav-links a {
+        font-size: 13px !important;
+        padding: 4px 6px !important;
+    }
+
+    .my-box {
+        width: 92% !important;
+        padding: 15px !important;
+        margin: 20px auto !important;
+    }
+
+    .text h2 {
+        font-size: 22px !important;
+    }
+
+    .text p {
+        font-size: 14px !important;
+    }
+}
