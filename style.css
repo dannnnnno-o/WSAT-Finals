@@ -8,7 +8,7 @@
 
 body {
     background: #f9e4ea;
-    background-image: url("../images/bg/b.jpg");
+    background-image: url("../images/bg/s.jpg");
     background-repeat: no-repeat;
     background-size: cover !important;
     padding-top: 70px;
@@ -228,19 +228,19 @@ h2 {
 }
 
 .all {
-    height: 300px;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
-    color: #f67199;
+    color: #000000;
     text-align: center;
 }
 
 .all h2 {
     font-size: 40px;
     font-weight: bold;
-    color: rgb(243, 132, 150);
+    color: #f67199;
 }
 
 .container {
@@ -254,7 +254,7 @@ color: white; */
 .container h2 {
     font-size: 40px;
     font-weight: bold;
-    color: rgb(243, 132, 150);
+    color: #f67199;
 }
 
 .box {
