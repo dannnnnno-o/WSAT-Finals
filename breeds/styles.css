@@ -1,9 +1,10 @@
 /* Carousel */
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none !important;
 }
 
-body{
+body {
     background-image: url('/images/bg/b.jpg') !important;
     background-position: center;
     background-size: cover !important;
@@ -44,8 +45,29 @@ body{
 }
 
 .breed-grid {
-    margin-top: 60px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 30px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 1400px !important;
 }
+
+.breed-card {
+    flex: 0 1 320px !important;
+    width: 100% !important;
+}
+
+.results {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #b5445f;
+}
+
 
 /* Responsive Styles / Media Queries */
 
@@ -109,7 +131,8 @@ body{
         justify-content: center;
         gap: 8px;
         margin-top: 10px;
-        flex-wrap: nowrap; /* keeps them in a single row */
+        flex-wrap: nowrap;
+        /* keeps them in a single row */
     }
 
     .nav-links a {
@@ -128,7 +151,9 @@ body{
 
     .breed-grid {
         gap: 20px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
     }
 
     footer {
@@ -145,7 +170,8 @@ body{
     }
 
     .nav-links {
-        flex-direction: row !important; /* override stacking on root css*/
+        flex-direction: row !important;
+        /* override stacking on root css*/
         gap: 8px;
         margin-top: 5px;
     }

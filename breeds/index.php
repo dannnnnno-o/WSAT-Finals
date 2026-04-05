@@ -293,7 +293,7 @@ require_once('../ctrl.php');
         }
         if ($cats != NULL) {
             if (isset($search)) {
-                echo '<p>Results for "' . $search . '"</p><br>';
+                echo '<p class="results">Results for "' . $search . '"</p><br>';
             }
             echo '<div class="breed-grid">';
             foreach ($cats as $cat) {
