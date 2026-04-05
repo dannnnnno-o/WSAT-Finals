@@ -21,13 +21,13 @@ require_once('../ctrl.php');
 <body>
 
 
-<div class="bubble" style="width: 80px; height: 80px; left: 10%; animation-duration: 30s;"></div>
-  <div class="bubble" style="width: 50px; height: 50px; left: 40%; animation-duration: 20s;"></div>
-  <div class="bubble" style="width: 100px; height: 100px; left: 70%; animation-duration: 40s;"></div>
+    <div class="bubble" style="width: 80px; height: 80px; left: 10%; animation-duration: 30s;"></div>
+    <div class="bubble" style="width: 50px; height: 50px; left: 40%; animation-duration: 20s;"></div>
+    <div class="bubble" style="width: 100px; height: 100px; left: 70%; animation-duration: 40s;"></div>
 
-  <div class="sparkle" style="top: 20%; left: 15%; animation-delay: 0s;"></div>
-  <div class="sparkle" style="top: 40%; left: 50%; animation-delay: 1s;"></div>
-  <div class="sparkle" style="top: 70%; left: 30%; animation-delay: 2s;"></div>
+    <div class="sparkle" style="top: 20%; left: 15%; animation-delay: 0s;"></div>
+    <div class="sparkle" style="top: 40%; left: 50%; animation-delay: 1s;"></div>
+    <div class="sparkle" style="top: 70%; left: 30%; animation-delay: 2s;"></div>
 
     <header>
         <a href="../" class="logo">
@@ -56,7 +56,7 @@ require_once('../ctrl.php');
     </header>
 
     <section class="container">
-
+        <h1 class="hero">Popular Breeds</h1>
         <?php
         if (empty($_GET["search"])) {
             echo '        <div class="wrapper swiper">
@@ -222,6 +222,7 @@ require_once('../ctrl.php');
 
         <script src="../script.js"></script>
 
+        <h1 class="hero">Cat Breeds</h1>
         <?php
         $cats = get_cats($pdo);
 
