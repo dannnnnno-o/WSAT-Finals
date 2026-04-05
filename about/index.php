@@ -52,7 +52,7 @@
 
             This website is built with passion and genuine interest in feline companions. <br>
             Every section is thoughtfully created to make learning simple, enjoyable, and meaningful. <br>
-            We aim to create a space where curiosity about cats turns into knowledge, and knowledge turns into better care.
+            We aim to create a space where curiosity about cats turns into knowledge, and knowledge turns into better care.<br>
         </p></center>
 </section>
 
