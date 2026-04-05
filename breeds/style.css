@@ -10,6 +10,28 @@ body {
   animation: dreamyGradient 5s ease infinite;
 }
 
+/* Center the search form in the header */
+header {
+    justify-content: center !important;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+.breed-search-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .container h2{
     color: white;
 }
@@ -62,7 +84,12 @@ body {
     padding: 2px 8px;
     border-radius: 12px;
     height: 33px;
-    
+    max-width: calc(100% - 20px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    line-height: 29px;
 }
 
 .card.swiper-slide .card-content {
@@ -93,12 +120,30 @@ body {
     margin-top: 8px;
 }
 
+.card.swiper-slide .card-profile {
+    overflow: hidden;
+    min-width: 0;
+}
+
 .card.swiper-slide .card-profile img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     object-fit: cover;
     border: 1px solid rgba(255,255,255,0.45);
+    flex-shrink: 0;
+}
+
+.card.swiper-slide .card-profile-info {
+    min-width: 0;
+}
+
+.card.swiper-slide .card-profile-name {
+    font-size: 0.7rem;
+}
+
+.card.swiper-slide .card-profile-role {
+    font-size: 0.7rem;
 }
 
 .card.swiper-slide .card-button {
