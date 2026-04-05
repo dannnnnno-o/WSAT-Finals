@@ -1,6 +1,290 @@
-body{
+body {
     background-image: url('/images/bg/b.jpg') !important;
     background-position: center;
     background-size: cover !important;
     background-attachment: fixed;
+}
+
+/* Care page hero box - fit content and center */
+
+.box {
+    width: auto;
+    max-width: 700px;
+    height: auto;
+    min-height: unset;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Center the box within the page flow */
+body.care-page {
+    text-align: center;
+}
+
+body.care-page .container,
+body.care-page footer {
+    text-align: left;
+}
+
+.tix {
+    text-align: center;
+}
+
+.tix h2 {
+    font-size: 28px;
+}
+
+.tix p {
+    font-size: 16px;
+}
+
+/* Care grid cards - fluid width, soft shadow */
+.care-box {
+    width: 100%;
+    border-left: 3px solid rgba(246, 113, 153, 0.4) !important;
+    border-bottom: 3px solid rgba(246, 113, 153, 0.3) !important;
+    box-shadow: 0 4px 15px rgba(246, 113, 153, 0.15), 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.care-box:hover {
+    box-shadow: 0 6px 20px rgba(246, 113, 153, 0.25), 0 2px 6px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.boxe {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.img-warp {
+    flex: 1 1 250px;
+    max-width: 350px;
+}
+
+.img-warp img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-warp h3 {
+    text-align: center;
+    margin-top: 8px;
+    color: #b13d5f;
+    font-size: 26px;
+}
+
+.boxe p {
+    flex: 2 1 300px;
+}
+
+/* ===================== */
+/* Responsive Styles     */
+/* ===================== */
+
+/* Tablets and small laptops */
+@media (max-width: 992px) {
+    header {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px 30px;
+        gap: 15px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .box {
+        width: 92%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .tix h2 {
+        font-size: 24px;
+    }
+
+    .care-box {
+        border-radius: 15px;
+    }
+
+    .img-warp {
+        max-width: 280px;
+    }
+
+    .img-warp img {
+        height: 200px;
+    }
+}
+
+/* Tablets Portrait */
+@media (max-width: 850px) {
+    body {
+        padding-top: 180px !important;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px 15px;
+        justify-content: center;
+        text-align: center;
+        gap: 8px;
+        height: auto;
+    }
+
+    .logo {
+        margin-bottom: 5px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    .container {
+        padding: 20px 15px;
+    }
+
+    .box {
+        width: 95%;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .tix h2 {
+        font-size: 22px;
+    }
+
+    .tix p {
+        font-size: 15px;
+    }
+
+    /* Stack image and text vertically inside care cards */
+    .boxe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-warp {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .img-warp img {
+        height: 220px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .boxe p {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .care-box {
+        border-radius: 15px;
+        margin: 0.75rem 0;
+    }
+
+    footer {
+        font-size: 18px;
+        padding: 30px 20px;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        padding-top: 160px !important;
+    }
+
+    header h1 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .nav-links {
+        flex-direction: row !important;
+        gap: 6px;
+        margin-top: 5px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .container {
+        padding: 15px 10px;
+    }
+
+    .box {
+        width: 96%;
+        padding: 12px;
+        border-radius: 15px;
+        min-height: auto;
+    }
+
+    .tix h2 {
+        font-size: 20px;
+    }
+
+    .tix p {
+        font-size: 14px;
+    }
+
+    .care-box {
+        border-radius: 12px;
+        padding: 6px;
+    }
+
+    .boxe {
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .img-warp img {
+        height: 180px;
+    }
+
+    .img-warp h3 {
+        font-size: 22px;
+    }
+
+    .boxe p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    footer {
+        font-size: 16px;
+        padding: 20px 15px;
+    }
 }

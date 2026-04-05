@@ -32,7 +32,7 @@
     <div class="box">
         <div class="tix">
             <h2>Basic Care for Cats</h2>
-            <p>Learn how to provide the best care for your feline friend with these essential tips</p><br><br>
+            <p>Learn how to provide the best care for your feline friend with these essential tips</p>
         </div>
     </div>
 
@@ -41,8 +41,8 @@
             <div class="care-box">
                 <div class="boxe">
                     <div class="img-warp">
-                    <img src="../images/cat care/Cat Grooming.jpg" alt="Cat Grooming">
-                    <h3>Grooming</h3>
+                        <img src="../images/cat care/Cat Grooming.jpg" alt="Cat Grooming">
+                        <h3>Grooming</h3>
                     </div>
                     <p>➢➢ Cats are naturally clean, but they still need regular care.<br>
 
@@ -58,34 +58,36 @@
                         <strong>Dental care:</strong><br>
                         → Brush teeth or give dental treats to prevent gum disease<br><br>
 
-                        ➢ Regular grooming keeps your cat comfortable and reduces shedding.</p>
+                        ➢ Regular grooming keeps your cat comfortable and reduces shedding.
+                    </p>
                 </div>
             </div>
 
             <div class="care-box">
                 <div class="boxe">
                     <div class="img-warp">
-                    <img src="../images/cat care/Cat Feeding.jpg" alt="Cat Feeding">
-                    <h3>Feeding</h3>
+                        <img src="../images/cat care/Cat Feeding.jpg" alt="Cat Feeding">
+                        <h3>Feeding</h3>
                     </div>
                     <p>➢➢ Proper nutrition is essential for growth and overall health.<br>
 
                         → Feed high-quality cat food (wet, dry, or mixed)<br><br>
                         → Adjust diet based on age:<br>
-                           <strong>Kittens:</strong> → more frequent meals<br>
-                           <strong>Adults:</strong> → 2–3 meals daily<br><br>
+                        <strong>Kittens:</strong> → more frequent meals<br>
+                        <strong>Adults:</strong> → 2–3 meals daily<br><br>
                         → Always provide fresh, clean water.<br>
                         → Avoid harmful foods like chocolate, onions, garlic, and salty food.<br>
                         → Don’t overfeed—follow portion guidelines to prevent obesity.<br><br>
-                        ➢ A balanced diet helps maintain energy, healthy fur, and strong immunity.</p>
+                        ➢ A balanced diet helps maintain energy, healthy fur, and strong immunity.
+                    </p>
                 </div>
             </div>
 
             <div class="care-box">
                 <div class="boxe">
                     <div class="img-warp">
-                    <img src="../images/cat care/Cat Health.jpg" alt="Cat Health">
-                    <h3>Health</h3>
+                        <img src="../images/cat care/Cat Health.jpg" alt="Cat Health">
+                        <h3>Health</h3>
                     </div>
                     <p>➢➢ Preventive care is key to a long, healthy life.<br>
 
@@ -99,15 +101,16 @@
                         → Lethargy<br>
                         → Behavior changes<br><br>
 
-                        ➢ Early detection of illness can prevent serious problems.</p>
+                        ➢ Early detection of illness can prevent serious problems.
+                    </p>
                 </div>
             </div>
 
             <div class="care-box">
                 <div class="boxe">
                     <div class="img-warp">
-                    <img src="../images/cat care/Cat Exercise.jpg" alt="Cat Exercise">
-                    <h3>Exercise</h3>
+                        <img src="../images/cat care/Cat Exercise.jpg" alt="Cat Exercise">
+                        <h3>Exercise</h3>
                     </div>
                     <p>➢➢ Cats need daily movement and mental stimulation.<br>
 
@@ -119,15 +122,18 @@
                         → Provide a scratching post for claw health<br>
                         → Cat trees or climbing spaces encourage natural behavior<br>
 
-                        ➢ Exercise helps prevent obesity, boredom, and destructive behavior.</p>
+                        ➢ Exercise helps prevent obesity, boredom, and destructive behavior.
+                    </p>
                 </div>
             </div>
 
             <div class="care-box">
                 <div class="boxe">
                     <div class="img-warp">
-                    <img src="../images/cat care/Cat Litter.jpg" alt="Cat Litter">
-                    <center><h3>Litter Box Care</h3></center>
+                        <img src="../images/cat care/Cat Litter.jpg" alt="Cat Litter">
+                        <center>
+                            <h3>Litter Box Care</h3>
+                        </center>
                     </div>
                     <p>➢➢ Cats are naturally clean, so hygiene is important.<br>
 
