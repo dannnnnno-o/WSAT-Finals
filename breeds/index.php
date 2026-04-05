@@ -25,7 +25,7 @@ require_once('../ctrl.php');
     <header>
         <a href="../" class="logo">
             <img src="../images/bg/catty.png" alt="Home Logo" width="80">
-            <h1>Popular Cat Breeds</h1>
+            <h1>Furry Friends</h1>
         </a>
 
         <form action="/breeds/breeds.inc.php" method="GET" class="breed-search-form" id="breedSearchForm">

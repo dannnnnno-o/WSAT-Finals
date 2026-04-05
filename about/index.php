@@ -13,11 +13,19 @@
 
 <body>
 
+<<<<<<< HEAD
     <header>
         <a href="/" class="logo">
             <img src="../images/bg/catty.png" alt="Home Logo" width="80">
             <h1>Popular Cat Breeds</h1>
         </a>
+=======
+<header>
+     <a href="/" class="logo">
+        <img src="../images/bg/catty.png" alt="Home Logo" width="80">
+        <h1>Furry Friends</h1>
+</a>
+>>>>>>> main
 
         <nav>
             <ul class="nav-links">
