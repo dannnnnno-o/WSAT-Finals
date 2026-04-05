@@ -220,8 +220,14 @@ button {
 
 }
 
+h2 {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
 
-.hero {
+.all {
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -231,6 +237,11 @@ button {
     text-align: center;
 }
 
+.all h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(243, 132, 150);
+}
 
 .container {
     padding: 40px;
@@ -240,7 +251,11 @@ margin:auto;
 color: white; */
 }
 
-
+.container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(243, 132, 150);
+}
 
 .box {
     width: 860px;
