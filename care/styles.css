@@ -1,0 +1,6 @@
+body{
+    background-image: url('/images/bg/b.jpg') !important;
+    background-position: center;
+    background-size: cover !important;
+    background-attachment: fixed;
+}
