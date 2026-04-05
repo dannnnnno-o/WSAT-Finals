@@ -1,14 +1,6 @@
-<<<<<<< Updated upstream
-=======
-.all h2 {
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(243, 132, 150);
-}
-
 .container {
     justify-self: center;
-    text-align: center;
+    text-align: center !important;
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -25,7 +17,6 @@
     font-size: 18px;
     color: #333;
     line-height: 1.6;
-    text-align: justify;
     margin-bottom: 15px;
 }
 
@@ -141,4 +132,3 @@
         font-size: 28px;
     }
 }
->>>>>>> Stashed changes

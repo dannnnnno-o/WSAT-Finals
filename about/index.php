@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Breeds of Cats</title>
 <link rel="stylesheet" href="../style.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles.css">
 <link rel="icon" href="/images/bg/catty.png">
 </head>
 
@@ -30,7 +30,7 @@
     </header>
 
 <section class="container">
-    <h2>Learn About Cat Breeds Around the World</h2><br>
+    <h2>Learn About Cat Breeds Around the World</h2>
         <p>Welcome to Popular Cat Breeds, a dedicated space for anyone who loves cats or wants to learn more about them.<br> 
             This website was created to bring together helpful, well-organized, <br>
             and easy-to-understand information about cat breeds from all over the world.<br><br>
