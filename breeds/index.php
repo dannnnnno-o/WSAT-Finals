@@ -322,7 +322,7 @@ require_once('../ctrl.php');
 
 
     <footer>
-        <p>© 2026 Breeds of Cats</p>
+        <p>© 2026 Furry Friends</p>
     </footer>
 
     <script>

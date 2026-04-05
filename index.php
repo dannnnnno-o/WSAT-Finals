@@ -46,7 +46,7 @@
     </div>
 
     <footer>
-        @ 2026 Breeds of Cats
+        @ 2026 Furry Friends
     </footer>
     <script src="script.js"></script>
     <script>
