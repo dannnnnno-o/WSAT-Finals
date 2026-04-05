@@ -60,6 +60,7 @@ body {
     font-weight: 700;
     padding: 2px 8px;
     border-radius: 12px;
+    height: 33px;
 }
 
 .card.swiper-slide .card-content {
